@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manage on CAFfeZeit</title>
+    <link>http://localhost:1313/tags/manage/</link>
+    <description>Recent content in Manage on CAFfeZeit</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 13 Oct 2023 12:00:37 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/manage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extended Security Updates Windows Server 2012</title>
+      <link>http://localhost:1313/posts/extended-security-update-w2012/</link>
+      <pubDate>Fri, 13 Oct 2023 12:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/extended-security-update-w2012/</guid>
+      <description>&lt;p&gt;In dem Blogbeitrag &lt;a href=&#34;https://cloudblogs.microsoft.com/windowsserver/2023/10/10/secure-windows-server-2012-r2-workloads-with-options-from-azure/&#34;&gt;&amp;ldquo;Secure Windows Server 2012/R2 workloads with options from Azure&amp;rdquo;&lt;/a&gt; werden die wichtigsten Möglichkeiten aufgezeigt, wie man einen Workload der auf Basis des Windows Server 2012 betrieben wird auch weiterhin mit Sicherheitsupdates versorgen kann, obwohl das Supportende bereits erreicht ist.&lt;/p&gt;&#xA;&lt;p&gt;Im Kern gibt es folgende Hauptoptionen im Zusammenhang mit Microsoft Azure, wenn man nicht kurzfristig in der Lage ist, den Workload zu modernisieren und auf eine neue Server Version zu migrieren.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

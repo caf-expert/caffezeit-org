@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CAF on CAFfeZeit</title>
+    <link>http://localhost:1313/tags/caf/</link>
+    <description>Recent content in CAF on CAFfeZeit</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Fri, 13 Oct 2023 12:00:37 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/caf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Extended Security Updates Windows Server 2012</title>
+      <link>http://localhost:1313/posts/extended-security-update-w2012/</link>
+      <pubDate>Fri, 13 Oct 2023 12:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/extended-security-update-w2012/</guid>
+      <description>&lt;p&gt;In dem Blogbeitrag &lt;a href=&#34;https://cloudblogs.microsoft.com/windowsserver/2023/10/10/secure-windows-server-2012-r2-workloads-with-options-from-azure/&#34;&gt;&amp;ldquo;Secure Windows Server 2012/R2 workloads with options from Azure&amp;rdquo;&lt;/a&gt; werden die wichtigsten Möglichkeiten aufgezeigt, wie man einen Workload der auf Basis des Windows Server 2012 betrieben wird auch weiterhin mit Sicherheitsupdates versorgen kann, obwohl das Supportende bereits erreicht ist.&lt;/p&gt;&#xA;&lt;p&gt;Im Kern gibt es folgende Hauptoptionen im Zusammenhang mit Microsoft Azure, wenn man nicht kurzfristig in der Lage ist, den Workload zu modernisieren und auf eine neue Server Version zu migrieren.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cost Management - Azure RI vs. Saving Plans</title>
+      <link>http://localhost:1313/posts/caf-govern-cost.de/</link>
+      <pubDate>Thu, 05 Oct 2023 12:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-govern-cost.de/</guid>
+      <description>&lt;p&gt;Immer wieder gibt es die Diskussion sind die Azure Reserved Instances (RI) oder der Azure Saving Plan (SP) die bessere Option für den Betrieb einer Applikation auf Basis von IaaS in Azure. Es gibt nicht die eine Antwort auf diese Frage. Im folgenden werden die beiden Optionen Reserved Instance und Saving Plan gegen übergestellt und anhand von Szenarien bewertet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Bicep Modul für einen Anomalie Alert</title>
+      <link>http://localhost:1313/posts/caf-bicep-anomalyalert.de/</link>
+      <pubDate>Fri, 05 May 2023 17:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-bicep-anomalyalert.de/</guid>
+      <description>&lt;p&gt;In unserem &lt;a href=&#34;https://github.com/caf-expert/CAF-LandingZone-StarterKit&#34;&gt;CAF Landing Zone Starter Kit&lt;/a&gt; fehlte bis dato die Implementierung des Anomalie Alerts auf der Subscription. Dies ist fast fertig gestellt. Vorab hier eine mögliche Implementierung des Anomaly Alerts als Bicep Modul.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

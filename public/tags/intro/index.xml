@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Intro on CAFfeZeit</title>
+    <link>http://localhost:1313/tags/intro/</link>
+    <description>Recent content in Intro on CAFfeZeit</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Tue, 24 Jan 2023 19:00:37 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/intro/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAF Partnerbootcamp Link Sammlung</title>
+      <link>http://localhost:1313/posts/caf-bootcamp-links.de/</link>
+      <pubDate>Tue, 24 Jan 2023 19:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-bootcamp-links.de/</guid>
+      <description>&lt;p&gt;Im Rahmen eines Partnerbootcamps haben wir einige Links gesammelt und hier zusammengefasst:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAF Einführung deutscher Lernpfad</title>
+      <link>http://localhost:1313/posts/caf-into-learning.de/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-into-learning.de/</guid>
+      <description>&lt;p&gt;Auf unserer Github CAF Expert Seite habe ich bereits einen Lernpfad zum Cloud Adoption Framework (CAF) in deutscher Sprache veröffentlicht. Wenn Ihr neu im CAF seid, besucht bitte diese kurze Videoreihe, um mehr über dieses iterativen und strukturierte Vorgehensmodel zu erfahren. Die Cloud als Enabler für eine digitale Transformation nutzbar machen.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Let&#39;s start - CAFfe-Zeit</title>
+      <link>http://localhost:1313/posts/lets-start.de/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/lets-start.de/</guid>
+      <description>&lt;p&gt;CAFfe-Zeit ist ein Projekt, dass aus den vielen Trainings, Hackathons und Workshops rund um das &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/&#34;&gt;Microsoft Cloud Adoption Framework CAF&lt;/a&gt; in den letzten zwölf Monaten entstanden ist. Das CAF ist ein so umfangreiches Werk und es gibt so viele Aspekte rundum das CAF. Viele Teilnehmer aus meinen Trainings haben die Idee einer &amp;ldquo;CAF Runde&amp;rdquo; mitgetragen. Daher habe ich die CAFfe-Zeit ins Leben gerufen.  Eine Community von CAF Interessierten, die sich regelmäßig austauschen, Diskussionen führen oder auch einfach ein paar News konsumieren möchten. Dafür habe ich diese kleine Website aufgesetzt um die Ergebnisse dieser CAFfe-Zeit bereitzustellen.&lt;/p&gt;&#xA;&lt;p&gt;Ich habe bereits eine kleine Umfrage unter den Teilnehmern meiner Trainings gemacht und ein erstes Backlog von Themen für die CAFfe-Zeit aufgebaut. &amp;ldquo;Stay tuned&amp;rdquo; erst Inhalte werden also kommen&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

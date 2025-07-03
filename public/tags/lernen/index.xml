@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lernen on CAFfeZeit</title>
+    <link>http://localhost:1313/tags/lernen/</link>
+    <description>Recent content in Lernen on CAFfeZeit</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Mon, 18 Jul 2022 13:07:02 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/lernen/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAF Namenskonvention</title>
+      <link>http://localhost:1313/posts/caf-namingconvention.de/</link>
+      <pubDate>Mon, 18 Jul 2022 13:07:02 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-namingconvention.de/</guid>
+      <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;&#xA;&lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CAF Einführung deutscher Lernpfad</title>
+      <link>http://localhost:1313/posts/caf-into-learning.de/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-into-learning.de/</guid>
+      <description>&lt;p&gt;Auf unserer Github CAF Expert Seite habe ich bereits einen Lernpfad zum Cloud Adoption Framework (CAF) in deutscher Sprache veröffentlicht. Wenn Ihr neu im CAF seid, besucht bitte diese kurze Videoreihe, um mehr über dieses iterativen und strukturierte Vorgehensmodel zu erfahren. Die Cloud als Enabler für eine digitale Transformation nutzbar machen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

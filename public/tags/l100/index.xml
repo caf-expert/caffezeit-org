@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>L100 on CAFfeZeit</title>
+    <link>http://localhost:1313/tags/l100/</link>
+    <description>Recent content in L100 on CAFfeZeit</description>
+    <generator>Hugo</generator>
+    <language>de-de</language>
+    <lastBuildDate>Wed, 01 Jun 2022 00:00:37 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/l100/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CAF Einführung deutscher Lernpfad</title>
+      <link>http://localhost:1313/posts/caf-into-learning.de/</link>
+      <pubDate>Wed, 01 Jun 2022 00:00:37 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-into-learning.de/</guid>
+      <description>&lt;p&gt;Auf unserer Github CAF Expert Seite habe ich bereits einen Lernpfad zum Cloud Adoption Framework (CAF) in deutscher Sprache veröffentlicht. Wenn Ihr neu im CAF seid, besucht bitte diese kurze Videoreihe, um mehr über dieses iterativen und strukturierte Vorgehensmodel zu erfahren. Die Cloud als Enabler für eine digitale Transformation nutzbar machen.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
