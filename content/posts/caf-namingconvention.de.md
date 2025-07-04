@@ -19,7 +19,7 @@ Dieses Diagramm zeigt die Komponenten eines Azure-Ressourcennamens:
 
 {{< figure src="../images/resource-naming.png" alt="Components Azure resource name" caption="Components Azure resource name" >}}
 
-## Nächster Schritt 
+## Nächster Schritt
 
 Was aber, wenn Sie die Namenskonvention Ihrer Umgebung in großem Maßstab und während der Bereitstellung mit Pipelines verwalten möchten? Es gibt ein hilfreiches Tool, das Sie in Betracht ziehen sollten - das **Azure Naming Tool**!
 
