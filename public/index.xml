@@ -1,19 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CAFfeZeit</title>
+    <title>CAFfe Zeit</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on CAFfeZeit</description>
-    <generator>Hugo</generator>
+    <description>Recent content on CAFfe Zeit</description>
+    <generator>Hugo -- 0.147.9</generator>
     <language>de-de</language>
-    <lastBuildDate>Thu, 03 Jul 2025 15:27:44 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 04 Jul 2025 14:47:18 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Thu, 03 Jul 2025 15:27:44 +0200</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+      <title>Wie Cloud-Organisationen neu denken müssen</title>
+      <link>http://localhost:1313/posts/caf-organize/</link>
+      <pubDate>Fri, 04 Jul 2025 14:47:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-organize/</guid>
+      <description>Von Silos zu Produkten: Wie Cloud-Organisationen neu denken müssen</description>
+    </item>
+    <item>
+      <title>Cover-Bilder in Hugo Posts: Ein Tutorial</title>
+      <link>http://localhost:1313/posts/cover-bilder-tutorial/</link>
+      <pubDate>Fri, 04 Jul 2025 13:33:55 +0200</pubDate>
+      <guid>http://localhost:1313/posts/cover-bilder-tutorial/</guid>
+      <description>Lernen Sie, wie Sie attraktive Cover-Bilder zu Ihren Hugo-Blogposts hinzufügen</description>
+    </item>
+    <item>
+      <title>10 Nützliche Webentwicklung-Tipps für 2025</title>
+      <link>http://localhost:1313/posts/webentwicklung-tipps/</link>
+      <pubDate>Fri, 04 Jul 2025 13:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/webentwicklung-tipps/</guid>
+      <description>Praktische Tipps und Tricks für moderne Webentwicklung</description>
+    </item>
+    <item>
+      <title>Mein erster Post</title>
+      <link>http://localhost:1313/posts/mein-erster-post/</link>
+      <pubDate>Fri, 04 Jul 2025 12:41:18 +0200</pubDate>
+      <guid>http://localhost:1313/posts/mein-erster-post/</guid>
+      <description>Willkommen auf meiner neuen Hugo-Website!</description>
+    </item>
+    <item>
+      <title>GitHub Pages mit Hugo: Der komplette Guide</title>
+      <link>http://localhost:1313/posts/github-pages-guide/</link>
+      <pubDate>Fri, 04 Jul 2025 12:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/posts/github-pages-guide/</guid>
+      <description>Eine Schritt-für-Schritt Anleitung zum Erstellen einer Website mit Hugo und GitHub Pages</description>
+    </item>
+    <item>
+      <title>CAF Namenskonvention</title>
+      <link>http://localhost:1313/posts/caf-namingconvention.de/</link>
+      <pubDate>Mon, 18 Jul 2022 13:07:02 +0200</pubDate>
+      <guid>http://localhost:1313/posts/caf-namingconvention.de/</guid>
+      <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;
+&lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;
+&lt;p&gt;Dieses Diagramm zeigt die Komponenten eines Azure-Ressourcennamens:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;../images/resource-naming.png&#34;
+         alt=&#34;Components Azure resource name&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Components Azure resource name&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;nächster-schritt&#34;&gt;Nächster Schritt&lt;/h2&gt;
+&lt;p&gt;Was aber, wenn Sie die Namenskonvention Ihrer Umgebung in großem Maßstab und während der Bereitstellung mit Pipelines verwalten möchten? Es gibt ein hilfreiches Tool, das Sie in Betracht ziehen sollten - das &lt;strong&gt;Azure Naming Tool&lt;/strong&gt;!&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>http://localhost:1313/tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/</guid>
+      <description>tags</description>
     </item>
   </channel>
 </rss>

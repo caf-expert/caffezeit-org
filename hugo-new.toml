@@ -1,0 +1,141 @@
+baseURL = 'https://niophey.github.io/test-hugo/'
+languageCode = 'de-de'
+title = 'Meine Hugo GitHub Page'
+theme = 'PaperMod'
+
+# Erweiterte Konfiguration
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+# Syntax Highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+  # Allgemeine Einstellungen
+  env = "production"
+  description = "Eine moderne Hugo-Website auf GitHub Pages"
+  keywords = ["Hugo", "GitHub Pages", "Blog", "Webentwicklung"]
+  author = "niophey"
+  
+  # Theme-spezifische Einstellungen
+  DateFormat = "02. January 2006"
+  defaultTheme = "auto" # auto, light, dark
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = true
+  tocopen = false
+  
+  # Suche aktivieren
+  ShowSearchPage = true
+  ShowFullTextinRSS = false
+
+# Cover Image Konfiguration
+[params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+# Home Page Konfiguration
+[params.homeInfoParams]
+  Title = "Willkommen! 👋"
+  Content = """
+  Hallo und willkommen auf meiner persönlichen Website! 
+  
+  Diese Seite wurde mit Hugo erstellt und wird auf GitHub Pages gehostet. 
+  Hier teile ich meine Gedanken, Projekte und Erfahrungen.
+  
+  Schauen Sie sich gerne um und entdecken Sie meine neuesten Beiträge!
+  """
+
+# Profile Mode (Alternative zur homeInfoParams)
+[params.profileMode]
+  enabled = false
+  title = "niophey"
+  subtitle = "Entwickler & Hugo-Enthusiast"
+  imageUrl = "/images/profile.jpg"
+  imageTitle = "Profilbild"
+  imageWidth = 150
+  imageHeight = 150
+  
+  [[params.profileMode.buttons]]
+    name = "Blog Posts"
+    url = "/posts"
+  [[params.profileMode.buttons]]
+    name = "Archiv"
+    url = "/archives"
+  [[params.profileMode.buttons]]
+    name = "Suchen"
+    url = "/search"
+
+# Social Media Icons
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/niophey"
+[[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/ihr-handle"
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/ihr-profil"
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:ihre.email@example.com"
+
+# Navigation Menu
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "🏠 Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "posts"
+    name = "📝 Posts"
+    url = "/posts/"
+    weight = 20
+  [[menu.main]]
+    identifier = "archives"
+    name = "📚 Archiv"
+    url = "/archives/"
+    weight = 30
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ Tags"
+    url = "/tags/"
+    weight = 40
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍 Suchen"
+    url = "/search/"
+    weight = 50
+
+# Markup Konfiguration
+[markup]
+  [markup.highlight]
+    style = "github"
+    lineNos = true
+    codeFences = true
+    guessSyntax = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Output Formate
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

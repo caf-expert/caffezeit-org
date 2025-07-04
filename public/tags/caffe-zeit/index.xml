@@ -1,47 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>CAFfe-Zeit on CAFfeZeit</title>
+    <title>CAFfe-Zeit on CAFfe Zeit</title>
     <link>http://localhost:1313/tags/caffe-zeit/</link>
-    <description>Recent content in CAFfe-Zeit on CAFfeZeit</description>
-    <generator>Hugo</generator>
+    <description>Recent content in CAFfe-Zeit on CAFfe Zeit</description>
+    <generator>Hugo -- 0.147.9</generator>
     <language>de-de</language>
-    <lastBuildDate>Tue, 24 Jan 2023 19:00:37 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 18 Jul 2022 13:07:02 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/caffe-zeit/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CAF Partnerbootcamp Link Sammlung</title>
-      <link>http://localhost:1313/posts/caf-bootcamp-links.de/</link>
-      <pubDate>Tue, 24 Jan 2023 19:00:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/caf-bootcamp-links.de/</guid>
-      <description>&lt;p&gt;Im Rahmen eines Partnerbootcamps haben wir einige Links gesammelt und hier zusammengefasst:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>WAF Devops Tooling</title>
-      <link>http://localhost:1313/posts/waf-devops-tooling.de/</link>
-      <pubDate>Fri, 07 Oct 2022 13:55:13 +0200</pubDate>
-      <guid>http://localhost:1313/posts/waf-devops-tooling.de/</guid>
-      <description>&lt;h2 id=&#34;well-architected-framework-tooling&#34;&gt;Well-Architected-Framework Tooling&lt;/h2&gt;&#xA;&lt;p&gt;Das Assessment aus dem Well-Architected-Framework liefert nach Beantwortung aller Fragen eine Liste von Empfehlungen zur Umsetzung. Die Liste dieser Empfehlungen kann man sich in Form einer Excel Datei aus dem Assessment Tool exportieren.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>CAF Namenskonvention</title>
       <link>http://localhost:1313/posts/caf-namingconvention.de/</link>
       <pubDate>Mon, 18 Jul 2022 13:07:02 +0200</pubDate>
       <guid>http://localhost:1313/posts/caf-namingconvention.de/</guid>
-      <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;&#xA;&lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CAF Einführung deutscher Lernpfad</title>
-      <link>http://localhost:1313/posts/caf-into-learning.de/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/caf-into-learning.de/</guid>
-      <description>&lt;p&gt;Auf unserer Github CAF Expert Seite habe ich bereits einen Lernpfad zum Cloud Adoption Framework (CAF) in deutscher Sprache veröffentlicht. Wenn Ihr neu im CAF seid, besucht bitte diese kurze Videoreihe, um mehr über dieses iterativen und strukturierte Vorgehensmodel zu erfahren. Die Cloud als Enabler für eine digitale Transformation nutzbar machen.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Let&#39;s start - CAFfe-Zeit</title>
-      <link>http://localhost:1313/posts/lets-start.de/</link>
-      <pubDate>Wed, 01 Jun 2022 00:00:37 +0200</pubDate>
-      <guid>http://localhost:1313/posts/lets-start.de/</guid>
-      <description>&lt;p&gt;CAFfe-Zeit ist ein Projekt, dass aus den vielen Trainings, Hackathons und Workshops rund um das &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/&#34;&gt;Microsoft Cloud Adoption Framework CAF&lt;/a&gt; in den letzten zwölf Monaten entstanden ist. Das CAF ist ein so umfangreiches Werk und es gibt so viele Aspekte rundum das CAF. Viele Teilnehmer aus meinen Trainings haben die Idee einer &amp;ldquo;CAF Runde&amp;rdquo; mitgetragen. Daher habe ich die CAFfe-Zeit ins Leben gerufen.  Eine Community von CAF Interessierten, die sich regelmäßig austauschen, Diskussionen führen oder auch einfach ein paar News konsumieren möchten. Dafür habe ich diese kleine Website aufgesetzt um die Ergebnisse dieser CAFfe-Zeit bereitzustellen.&lt;/p&gt;&#xA;&lt;p&gt;Ich habe bereits eine kleine Umfrage unter den Teilnehmern meiner Trainings gemacht und ein erstes Backlog von Themen für die CAFfe-Zeit aufgebaut. &amp;ldquo;Stay tuned&amp;rdquo; erst Inhalte werden also kommen&amp;hellip;&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;
+&lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;
+&lt;p&gt;Dieses Diagramm zeigt die Komponenten eines Azure-Ressourcennamens:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;../images/resource-naming.png&#34;
+         alt=&#34;Components Azure resource name&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Components Azure resource name&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;nächster-schritt&#34;&gt;Nächster Schritt&lt;/h2&gt;
+&lt;p&gt;Was aber, wenn Sie die Namenskonvention Ihrer Umgebung in großem Maßstab und während der Bereitstellung mit Pipelines verwalten möchten? Es gibt ein hilfreiches Tool, das Sie in Betracht ziehen sollten - das &lt;strong&gt;Azure Naming Tool&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

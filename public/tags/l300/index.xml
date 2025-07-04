@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>L300 on CAFfeZeit</title>
+    <title>L300 on CAFfe Zeit</title>
     <link>http://localhost:1313/tags/l300/</link>
-    <description>Recent content in L300 on CAFfeZeit</description>
-    <generator>Hugo</generator>
+    <description>Recent content in L300 on CAFfe Zeit</description>
+    <generator>Hugo -- 0.147.9</generator>
     <language>de-de</language>
     <lastBuildDate>Mon, 18 Jul 2022 13:07:02 +0200</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/l300/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,18 @@
       <link>http://localhost:1313/posts/caf-namingconvention.de/</link>
       <pubDate>Mon, 18 Jul 2022 13:07:02 +0200</pubDate>
       <guid>http://localhost:1313/posts/caf-namingconvention.de/</guid>
-      <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;&#xA;&lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;
+&lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;
+&lt;p&gt;Dieses Diagramm zeigt die Komponenten eines Azure-Ressourcennamens:&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;../images/resource-naming.png&#34;
+         alt=&#34;Components Azure resource name&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Components Azure resource name&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h2 id=&#34;nächster-schritt&#34;&gt;Nächster Schritt&lt;/h2&gt;
+&lt;p&gt;Was aber, wenn Sie die Namenskonvention Ihrer Umgebung in großem Maßstab und während der Bereitstellung mit Pipelines verwalten möchten? Es gibt ein hilfreiches Tool, das Sie in Betracht ziehen sollten - das &lt;strong&gt;Azure Naming Tool&lt;/strong&gt;!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,56 @@
+{{- define "main" }}
+
+{{- if .Params.homeInfoParams }}
+  {{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $pages := where .Site.RegularPages "Type" "in" .Site.Params.mainSections }}
+
+{{- if gt (len $pages) 0 }}
+<main class="main">
+  <div class="posts">
+    {{- range $pages }}
+    <article class="post-entry">
+      {{- if .Params.cover.image }}
+      <figure class="entry-cover">
+        <a href="{{ .Permalink }}" aria-label="{{ .Title }}">
+          <img loading="lazy" src="{{ .Params.cover.image | relURL }}" alt="{{ .Params.cover.alt | default .Title }}">
+        </a>
+      </figure>
+      {{- end }}
+      
+      <header class="entry-header">
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+      </header>
+      
+      {{- if .Params.description }}
+      <div class="entry-content">
+        <p>{{ .Params.description }}</p>
+      </div>
+      {{- end }}
+      
+      <footer class="entry-footer">
+        <div class="entry-meta">
+          <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2 January 2006" }}</time>
+          {{- if .Params.author }}
+          <span class="author"> • {{ .Params.author }}</span>
+          {{- end }}
+          {{- if .ReadingTime }}
+          <span class="reading-time"> • {{ .ReadingTime }} min read</span>
+          {{- end }}
+        </div>
+        {{- if .Params.tags }}
+        <div class="post-tags">
+          {{- range .Params.tags }}
+          <a href="{{ "/tags/" | relURL }}{{ . | urlize }}/">#{{ . }}</a>
+          {{- end }}
+        </div>
+        {{- end }}
+      </footer>
+    </article>
+    {{- end }}
+  </div>
+</main>
+{{- end }}
+
+{{- end }}{{/* end main */}}
