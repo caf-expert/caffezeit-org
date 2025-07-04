@@ -1,4 +1,4 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://IHRE-ORGANISATION.github.io/REPOSITORY-NAME/'
 languageCode = 'de-de'
 title = 'CAFfe Zeit'
 theme = 'PaperMod'
