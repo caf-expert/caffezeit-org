@@ -2,7 +2,7 @@
 title: "CAF Namenskonvention"
 date: 2022-07-18T13:07:02+02:00
 draft: false
-tags: ['CAFfe-Zeit', 'Namingconvention', 'Lernen', 'L300']
+tags: ['CAF', 'Namingconvention', 'Lernen', 'L300']
 author: 'Niels Ophey'
 cover:
     image: "images/posts/AzureNamingToolv2.png"
