@@ -3,7 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      - main  # Set a branch to deploy
   pull_request:
 
 jobs:
@@ -15,9 +15,6 @@ jobs:
       id-token: write
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
-    defaults:
-      run:
-        working-directory: ./
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,15 +26,6 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
-
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: '18'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
 
       - name: Build
         run: hugo --minify
@@ -53,5 +41,5 @@ jobs:
 
       - name: Deploy to GitHub Pages
         id: deployment
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         uses: actions/deploy-pages@v4
