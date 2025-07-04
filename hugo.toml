@@ -1,4 +1,4 @@
-baseURL = 'https://IHRE-ORGANISATION.github.io/REPOSITORY-NAME/'
+baseURL = 'https://CAF-Expert.github.io/caffezeit-org/'
 languageCode = 'de-de'
 title = 'CAFfe Zeit'
 theme = 'PaperMod'

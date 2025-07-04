@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>CAFfe Zeit</title>
-    <link>http://localhost:1313/REPOSITORY-NAME/</link>
+    <link>http://localhost:1313/caffezeit-org/</link>
     <description>Recent content on CAFfe Zeit</description>
     <generator>Hugo -- 0.147.9</generator>
     <language>de-de</language>
     <lastBuildDate>Fri, 04 Jul 2025 14:47:18 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/REPOSITORY-NAME/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/caffezeit-org/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wie Cloud-Organisationen neu denken müssen</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/posts/caf-organize/</link>
+      <link>http://localhost:1313/caffezeit-org/posts/caf-organize/</link>
       <pubDate>Fri, 04 Jul 2025 14:47:18 +0200</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/posts/caf-organize/</guid>
+      <guid>http://localhost:1313/caffezeit-org/posts/caf-organize/</guid>
       <description>Von Silos zu Produkten: Wie Cloud-Organisationen neu denken müssen</description>
     </item>
     <item>
       <title>Cover-Bilder in Hugo Posts: Ein Tutorial</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/posts/cover-bilder-tutorial/</link>
+      <link>http://localhost:1313/caffezeit-org/posts/cover-bilder-tutorial/</link>
       <pubDate>Fri, 04 Jul 2025 13:33:55 +0200</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/posts/cover-bilder-tutorial/</guid>
+      <guid>http://localhost:1313/caffezeit-org/posts/cover-bilder-tutorial/</guid>
       <description>Lernen Sie, wie Sie attraktive Cover-Bilder zu Ihren Hugo-Blogposts hinzufügen</description>
     </item>
     <item>
       <title>10 Nützliche Webentwicklung-Tipps für 2025</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/posts/webentwicklung-tipps/</link>
+      <link>http://localhost:1313/caffezeit-org/posts/webentwicklung-tipps/</link>
       <pubDate>Fri, 04 Jul 2025 13:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/posts/webentwicklung-tipps/</guid>
+      <guid>http://localhost:1313/caffezeit-org/posts/webentwicklung-tipps/</guid>
       <description>Praktische Tipps und Tricks für moderne Webentwicklung</description>
     </item>
     <item>
       <title>Mein erster Post</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/posts/mein-erster-post/</link>
+      <link>http://localhost:1313/caffezeit-org/posts/mein-erster-post/</link>
       <pubDate>Fri, 04 Jul 2025 12:41:18 +0200</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/posts/mein-erster-post/</guid>
+      <guid>http://localhost:1313/caffezeit-org/posts/mein-erster-post/</guid>
       <description>Willkommen auf meiner neuen Hugo-Website!</description>
     </item>
     <item>
       <title>GitHub Pages mit Hugo: Der komplette Guide</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/posts/github-pages-guide/</link>
+      <link>http://localhost:1313/caffezeit-org/posts/github-pages-guide/</link>
       <pubDate>Fri, 04 Jul 2025 12:30:00 +0200</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/posts/github-pages-guide/</guid>
+      <guid>http://localhost:1313/caffezeit-org/posts/github-pages-guide/</guid>
       <description>Eine Schritt-für-Schritt Anleitung zum Erstellen einer Website mit Hugo und GitHub Pages</description>
     </item>
     <item>
       <title>CAF Namenskonvention</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/posts/caf-namingconvention.de/</link>
+      <link>http://localhost:1313/caffezeit-org/posts/caf-namingconvention.de/</link>
       <pubDate>Mon, 18 Jul 2022 13:07:02 +0200</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/posts/caf-namingconvention.de/</guid>
+      <guid>http://localhost:1313/caffezeit-org/posts/caf-namingconvention.de/</guid>
       <description>&lt;h2 id=&#34;namenskonvention&#34;&gt;Namenskonvention&lt;/h2&gt;
 &lt;p&gt;Es ist immer eine große Diskussion, wie eine Namenskonvention für die bereitzustellenden Azure-Ressourcen implementiert werden kann. Oft wird dieser &lt;a href=&#34;https://docs.microsoft.com/azure/cloud-adoption-framework/ready/azure-best-practices/resource-naming&#34;&gt;Artikel&lt;/a&gt; aus dem Microsoft Cloud Adoption Framework for Azure als Ausgangspunkt für die eigene Implementierung in einem Unternehmen verwendet.&lt;/p&gt;
 &lt;p&gt;Dieses Diagramm zeigt die Komponenten eines Azure-Ressourcennamens:&lt;/p&gt;
@@ -63,9 +63,9 @@
     </item>
     <item>
       <title>Tags</title>
-      <link>http://localhost:1313/REPOSITORY-NAME/tags/</link>
+      <link>http://localhost:1313/caffezeit-org/tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/REPOSITORY-NAME/tags/</guid>
+      <guid>http://localhost:1313/caffezeit-org/tags/</guid>
       <description>tags</description>
     </item>
   </channel>
